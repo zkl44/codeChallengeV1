@@ -1,0 +1,23 @@
+/********************************
+*  Utilities 
+*********************************/
+
+// display
+.flex {
+    display: flex;
+}
+
+.flex-vertical-align {
+    align-items: center;
+}
+
+
+// lists
+.stackedList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.stackedList-item {
+    padding: 8px 0;
+}

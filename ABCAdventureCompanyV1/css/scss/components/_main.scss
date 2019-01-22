@@ -1,0 +1,17 @@
+/********************************
+*  Main 
+*********************************/
+
+.main {
+    min-height: $height-main;
+    padding-top: $height-headerNav;
+}
+
+.main-content {
+    background: $solid-white;
+    padding: 36px 24px 120px;
+}
+
+.main-content-message {
+    margin-bottom: 40px;
+}

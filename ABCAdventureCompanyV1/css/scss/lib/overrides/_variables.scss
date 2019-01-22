@@ -1,0 +1,42 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// import variables in helpers
+@import "../../helpers/variables";
+
+// defaults colors
+$body-bg: $body-backgroundColor; // wild-sand (light gray)
+$text-color: $font-defaultColor; // solid-black (black)
+$link-color: $link-defaultColor; // jelly-bean (blue)
+$link-hover-color: $link-defaultColor; // jelly-bean (blue) -- no color change on hover
+$input-border: $dusty-gray;
+
+
+// buttons
+$btn-primary-bg: $button-primaryBackground; // japanese-laurel (green)
+$btn-primary-border: $button-primaryBorderColor; // japanese-laurel (green)
+$btn-default-color: $button-defaultColor;
+
+// font family
+$font-family-base: $fontFamily; // Open Sans, sans-serif
+
+// font sizes
+$font-size-base: $fontSize-base; // 18px
+$font-size-large: $fontSize-large; // 22px
+$font-size-small: $fontSize-small; // 12px
+$font-size-h1: $fontSize-h1; // 40px
+$font-size-h2: $fontSize-h2; // 34px
+$font-size-h3: $fontSize-h3; // 28px
+$font-size-h4: $fontSize-h4; // 22px
+$font-size-h5: $fontSize-h5; // 18px
+$font-size-h6: $fontSize-h6; // 16px
+
+// navbar
+$grid-float-breakpoint: if($collapsedMenu-only, 101vw, $screen-sm-min);
+$navbar-height: $height-headerNav; // 64px
+$navbar-margin-bottom: 0;
+
+// forms
+$form-group-margin-bottom: 12px

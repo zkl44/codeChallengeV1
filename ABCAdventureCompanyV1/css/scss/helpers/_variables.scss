@@ -1,0 +1,51 @@
+//*******************************
+//  Variables 
+//*******************************/
+
+// colors
+$solid-white: #ffffff;
+$solid-black: #000000;
+$mine-shaft: #333333;
+$dusty-gray: #999999;
+$wild-sand: #f5f5f5;
+$jelly-bean: #257aaf;
+$japanese-laurel: #149100;
+
+// defaults
+$body-backgroundColor: $wild-sand;
+$header-backgroundColor: $solid-white;
+$footer-backgroundColor: $dusty-gray;
+$font-defaultColor: $solid-black;
+$link-defaultColor: $jelly-bean;
+
+// buttons
+$button-defaultColor: $solid-black;
+$button-primaryBackground: $japanese-laurel;
+$button-primaryBorderColor: $japanese-laurel;
+
+// font sizes
+$fontSize-base: 18px;
+$fontSize-h1: 40px;
+$fontSize-h2: 34px;
+$fontSize-h3: 28px;
+$fontSize-h4: 22px;
+$fontSize-h5: 18px;
+$fontSize-h6: 16px;
+$fontSize-label: 14px;
+$fontSize-button: 12px;
+$fontSize-large: 22px;
+$fontSize-small: 12px;
+
+// font-family
+$fontFamily: 'Open Sans',
+sans-serif;
+
+// fixed heights
+$height-headerNav: 64px;
+$height-footer: 64px;
+$height-main: calc(100vh - (#{$height-headerNav} + #{$height-footer}));
+
+// Nav display options
+//      'true'  -> collapsed menu always on, horizontal menu doesn't show
+//      'false' -> Bootstrap default breakpoint
+$collapsedMenu-only: true;

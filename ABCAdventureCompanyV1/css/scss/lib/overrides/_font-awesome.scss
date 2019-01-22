@@ -1,0 +1,25 @@
+/********************************
+*  Font Awesome 
+*********************************/
+.fas {
+    color: $mine-shaft;
+    margin-right: 8px;
+    width: 24px;
+}
+
+.fas.large {
+    font-size: 24px;
+}
+
+.fa-phone.reversed {
+    transform: rotateY(180deg);
+}
+
+.fa-bars {
+    margin-right: 20px;
+    transform: translateY(2px);
+}
+
+.fa-map-marker-alt {
+    transform: translateX(3px);
+}

@@ -1,0 +1,58 @@
+/********************************
+*  Forms 
+*********************************/
+
+.form-container--offset {
+    border-radius: 4px;
+    box-shadow: 0px 0px 12px -1px $mine-shaft;
+    padding: 20px;
+}
+
+.form {
+    padding-top: 12px;
+}
+
+.count-container {
+    color: $dusty-gray;
+    font-size: $fontSize-small;
+    margin-top: 8px;
+}
+
+.form-btn {
+    margin-top: 8px;
+}
+
+.checkbox.custom {
+    font-size: $fontSize-label;
+}
+
+.checkbox.custom .checkbox-label {
+    border: 1px solid $input-border;
+    border-radius: 2px;
+    position: relative;
+    padding: 0;
+    height: 12px;
+    width: 12px;
+    min-height: 12px;
+}
+
+.checkbox.custom .checkbox-input:focus+.checkbox-label {
+    border-color: $input-border-focus;
+}
+
+.checkbox.custom .checkbox-input {
+    position: absolute;
+    left: -999em;
+}
+
+.checkbox.custom .checkbox-input:checked+.checkbox-label:before {
+    border-bottom: 3px solid $japanese-laurel;
+    border-left: 0;
+    border-right: 3px solid $japanese-laurel;
+    border-top: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    transform: rotate(41deg) translateY(-2px) translateX(1px);
+    width: 6px;
+}

@@ -1,0 +1,25 @@
+/********************************
+*  Page Title
+*********************************/
+
+.page-title-image {
+    height: 290px;
+    position: relative;
+    text-align: center;
+    background: url(../images/contact-us.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.page-title-content {
+    color: $solid-white;
+    font-weight: 700;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-title {
+    color: $solid-white;
+    font-weight: 800;
+    margin: 0;
+}

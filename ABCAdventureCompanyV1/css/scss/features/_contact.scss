@@ -1,0 +1,17 @@
+/********************************
+*  Contact Us 
+*********************************/
+
+.contactUs.page-title-image {
+    background-position: (0 40%);
+}
+
+.contact-address-section {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+    .contact-address-section {
+        margin-top: 36px;
+    }
+}
